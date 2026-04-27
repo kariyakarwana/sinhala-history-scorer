@@ -1,0 +1,20 @@
+{
+  "Anuradhapura Period": {
+    "has_concepts": ["Irrigation", "Buddhism", "Administration", "Culture", "Agriculture"]
+  },
+  "Irrigation": {
+    "related_to": ["Tanks", "Canals", "Agriculture", "Kings"],
+    "examples": ["වැව්", "ඇළ මාර්ග", "ජලාශ", "බැමි"]
+  },
+  "Kings": {
+    "examples": ["වසභ", "මහසෙන්", "ධාතුසේන", "දේවානම්පියතිස්ස"]
+  },
+  "Buddhism": {
+    "related_to": ["Mahinda Thero", "Devanampiyatissa", "Temples", "Education", "Culture"],
+    "examples": ["මහින්ද හිමි", "මිහින්තලය", "වෙහෙර", "විහාර", "ස්ථූප"]
+  },
+  "Agriculture": {
+    "related_to": ["Irrigation", "Rice cultivation", "Economy"],
+    "examples": ["වී වගාව", "ආහාර නිෂ්පාදනය", "ආර්ථික වර්ධනය"]
+  }
+}
