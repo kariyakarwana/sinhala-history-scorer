@@ -94,5 +94,13 @@ if st.button("Score Answer"):
         for item in evidence:
             st.info(item)
 
-        st.subheader("Ontology Concepts Found")
-        st.write(ontology_matches)
+        st.subheader("Ontology Concepts Used in Evaluation")
+
+        if ontology_matches:
+            for item in ontology_matches:
+                if isinstance(item, dict):
+                    st.markdown(f"✔ **{item['concept']}** — {item['category']}")
+                else:
+                    st.markdown(f"✔ {item}")
+        else:
+            st.warning("No ontology concepts detected.")

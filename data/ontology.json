@@ -1,20 +1,428 @@
 {
-  "Anuradhapura Period": {
-    "has_concepts": ["Irrigation", "Buddhism", "Administration", "Culture", "Agriculture"]
+  "metadata": {
+    "scope": "Anuradhapura Period",
+    "time_span": "377 BCE - 1017 CE",
+    "language": "Sinhala",
+    "version": "3.0",
+    "last_updated": "2026"
+  },
+  "core_concepts": {
+    "Anuradhapura_Period": {
+      "type": "Historical_Era",
+      "has_sub_concepts": [
+        "Irrigation",
+        "Buddhism",
+        "Administration",
+        "Culture",
+        "Economy",
+        "Society",
+        "Art_Architecture",
+        "Education",
+        "Foreign_Relations"
+      ],
+      "key_kings": [
+        "Pandukabhaya",
+        "Devanampiyatissa",
+        "Dutugemunu",
+        "Vasabha",
+        "Mahasena",
+        "Dhatusena",
+        "Kashyapa"
+      ],
+      "capital": "Anuradhapura",
+      "sinhala_terms": [
+        "අනුරාධපුර යුගය",
+        "අනුරාධපුර රාජධානිය"
+      ],
+      "significance": "Foundation period of Sinhala-Buddhist civilization with advanced irrigation, administration, culture and education."
+    }
   },
   "Irrigation": {
-    "related_to": ["Tanks", "Canals", "Agriculture", "Kings"],
-    "examples": ["වැව්", "ඇළ මාර්ග", "ජලාශ", "බැමි"]
-  },
-  "Kings": {
-    "examples": ["වසභ", "මහසෙන්", "ධාතුසේන", "දේවානම්පියතිස්ස"]
+    "type": "Infrastructure_System",
+    "sinhala_terms": [
+      "වාරිමාර්ග",
+      "ජල කළමනාකරණය"
+    ],
+    "related_to": [
+      "Agriculture",
+      "Kings",
+      "Technology",
+      "Economy",
+      "Administration"
+    ],
+    "components": {
+      "tanks": {
+        "sinhala": [
+          "වැව්",
+          "ජලාශ"
+        ],
+        "examples": [
+          "තිසා වැව",
+          "බසවක්කුලම වැව",
+          "මින්නේරිය වැව",
+          "කලා වැව",
+          "නුවර වැව",
+          "පදවිය වැව"
+        ]
+      },
+      "canals": {
+        "sinhala": [
+          "ඇළ මාර්ග",
+          "යෝධ ඇළ",
+          "ජය ගඟ"
+        ],
+        "function": "ජලය එක් ස්ථානයකින් තවත් ස්ථානයකට ගෙන යාම"
+      },
+      "dams": {
+        "sinhala": [
+          "බැමි",
+          "අමුණ"
+        ],
+        "function": "ජලය රඳවා තබා ගැනීම"
+      },
+      "sluices": {
+        "sinhala": [
+          "සොරොව්ව",
+          "කවුළු"
+        ],
+        "function": "ජල ප්‍රවාහය සහ ජල මට්ටම පාලනය කිරීම"
+      },
+      "bisokotuwa": {
+        "sinhala": [
+          "බිසෝ කොටුව"
+        ],
+        "function": "ජල පීඩනය පාලනය කිරීම"
+      },
+      "spillways": {
+        "sinhala": [
+          "පිටාර මාර්ග"
+        ],
+        "function": "අතිරික්ත ජලය ආරක්ෂිතව ඉවත් කිරීම"
+      },
+      "cascade_system": {
+        "sinhala": [
+          "ටැංකි කැස්කේඩ් පද්ධතිය"
+        ],
+        "function": "කුඩා වැව් එකිනෙකට සම්බන්ධ කර ජලය බෙදාහැරීම"
+      }
+    },
+    "impact": [
+      "වී වගාව",
+      "ආහාර නිෂ්පාදනය",
+      "ආහාර ආරක්ෂාව",
+      "ජනාවාස ව්‍යාප්තිය",
+      "ආර්ථික ස්ථාවරත්වය",
+      "සමාජ සංවර්ධනය"
+    ],
+    "key_kings": [
+      "වසභ",
+      "මහාසේන",
+      "ධාතුසේන"
+    ]
   },
   "Buddhism": {
-    "related_to": ["Mahinda Thero", "Devanampiyatissa", "Temples", "Education", "Culture"],
-    "examples": ["මහින්ද හිමි", "මිහින්තලය", "වෙහෙර", "විහාර", "ස්ථූප"]
+    "type": "Religious_Cultural_System",
+    "sinhala_terms": [
+      "බුදු දහම",
+      "බෞද්ධ සංස්කෘතිය"
+    ],
+    "introduction": {
+      "period": "247 BCE",
+      "missionary": "මහින්ද හිමි",
+      "king": "දේවානම්පියතිස්ස",
+      "location": "මිහින්තලය"
+    },
+    "related_to": [
+      "Culture",
+      "Education",
+      "Administration",
+      "Art_Architecture",
+      "Society"
+    ],
+    "institutions": {
+      "monasteries": [
+        "මහා විහාරය",
+        "අභයගිරි විහාරය",
+        "ජේතවනාරාමය"
+      ],
+      "educational": [
+        "පිරිවෙන්",
+        "අලුවිහාරේ",
+        "ත්‍රිපිටකය"
+      ]
+    },
+    "cultural_impact": {
+      "social_values": [
+        "අහිංසකවාදය",
+        "කරුණාව",
+        "දාන පුණ්‍ය",
+        "සමාජ සදාචාරය",
+        "ධාර්මික පාලනය"
+      ],
+      "art_forms": [
+        "ස්ථූප",
+        "වෙහෙර",
+        "විහාර",
+        "පිළිම",
+        "චිත්‍ර",
+        "ශිලා ලේඛන",
+        "ලෝහ ප්‍රතිමා"
+      ],
+      "literature": [
+        "මහාවංශය",
+        "දීපවංශය",
+        "පාලි සාහිත්‍යය"
+      ]
+    },
+    "key_figures": [
+      "මහින්ද හිමි",
+      "සංඝමිත්තා හිමි",
+      "දේවානම්පියතිස්ස",
+      "දුටුගැමුණු"
+    ]
   },
-  "Agriculture": {
-    "related_to": ["Irrigation", "Rice cultivation", "Economy"],
-    "examples": ["වී වගාව", "ආහාර නිෂ්පාදනය", "ආර්ථික වර්ධනය"]
+  "Administration": {
+    "type": "Governance_System",
+    "sinhala_terms": [
+      "රාජ්‍ය පාලනය",
+      "පාලන පද්ධතිය"
+    ],
+    "central": {
+      "king": [
+        "රජු",
+        "මහ රජ",
+        "දේව රාජ"
+      ],
+      "council": [
+        "අමාත්‍ය",
+        "සේනාපති",
+        "පුරෝහිත",
+        "භාණ්ඩාගාරික"
+      ]
+    },
+    "regional": [
+      "රට නිලධාරී",
+      "විසි නිලධාරී",
+      "ගම් මුලින්",
+      "ගම් සභාව"
+    ],
+    "special_officers": [
+      "ජල පාලක",
+      "වැව් නඩත්තු නිලධාරී",
+      "බදු එකතු කරන්නන්",
+      "ගබඩා නිලධාරී",
+      "විනිසුරුවන්"
+    ],
+    "royal_duties": [
+      "රට ආරක්ෂාව",
+      "වාරිමාර්ග නඩත්තු",
+      "බුදු දහම ප්‍රවර්ධනය",
+      "බදු පාලනය",
+      "නීති සාධාරණත්වය"
+    ],
+    "legal_values": [
+      "ධර්ම",
+      "සාධාරණත්වය",
+      "කරුණාව",
+      "සමාජ සාමය"
+    ]
+  },
+  "Economy": {
+    "type": "Economic_System",
+    "sinhala_terms": [
+      "ආර්ථිකය",
+      "වෙළඳාම",
+      "බදු"
+    ],
+    "agriculture": [
+      "වී වගාව",
+      "කෘෂිකර්මාන්තය",
+      "තෙල් බෝග",
+      "කුළුබඩු",
+      "බහු ඵලදාව"
+    ],
+    "trade": {
+      "domestic": [
+        "ගම් වෙළඳපොළ",
+        "නගර වෙළඳපොළ",
+        "රජයේ ගබඩා"
+      ],
+      "international_partners": [
+        "රෝමය",
+        "චීනය",
+        "ඉන්දියාව",
+        "අරාබිය"
+      ],
+      "exports": [
+        "මැණික්",
+        "අලි ඇතුන්",
+        "කුළුබඩු",
+        "මුතු",
+        "කෘෂි නිෂ්පාදන"
+      ],
+      "imports": [
+        "රත්රන්",
+        "රිදී",
+        "සිල්ක්",
+        "සුවඳ ද්‍රව්‍ය",
+        "යුද උපකරණ"
+      ]
+    },
+    "taxation": [
+      "ඉඩම් බදු",
+      "වෙළඳ බදු",
+      "ජල බදු"
+    ]
+  },
+  "Society": {
+    "type": "Social_Structure",
+    "groups": [
+      "රාජ පවුල",
+      "භික්ෂූන්",
+      "ගොවීන්",
+      "කලාකරුවන්",
+      "ශිල්පීන්",
+      "වෙළෙන්දන්",
+      "ශ්‍රමිකයින්"
+    ],
+    "values": [
+      "ධර්මික ජීවිතය",
+      "සමාජ සහයෝගීතාවය",
+      "පරිසර හිතකාමීත්වය",
+      "අධ්‍යාපනයට ගරු කිරීම",
+      "සදාචාරය"
+    ],
+    "women_status": [
+      "රාජ කාන්තාවන්ගේ දේශපාලන බලපෑම",
+      "ආගමික සහභාගීත්වය",
+      "භික්ෂුණී ශාසනය"
+    ]
+  },
+  "Art_Architecture": {
+    "type": "Cultural_Expression",
+    "sinhala_terms": [
+      "කලා ශිල්ප",
+      "වාස්තු විද්‍යාව",
+      "ගෘහ නිර්මාණ"
+    ],
+    "stupas": [
+      "රුවන්වැලි සෑය",
+      "ජේතවනාරාමය",
+      "අභයගිරි දාගැබ"
+    ],
+    "sculptures": [
+      "සමාධි බුද්ධ ප්‍රතිමාව",
+      "ඉසුරුමුණිය පෙම් යුවළ"
+    ],
+    "paintings": [
+      "සිගිරි චිත්‍ර"
+    ],
+    "urban_features": [
+      "චෛත්‍ය",
+      "බෝධි ඝර",
+      "පිරිවෙන්",
+      "ධර්ම ශාලා",
+      "කුටම් පොකුණ",
+      "රන් මසු පොකුණ"
+    ]
+  },
+  "Education": {
+    "type": "Knowledge_System",
+    "institutions": [
+      "පිරිවෙන්",
+      "විහාර",
+      "අලුවිහාරේ"
+    ],
+    "subjects": [
+      "ත්‍රිපිටකය",
+      "පාලි",
+      "සංස්කෘත",
+      "වෛද්‍ය විද්‍යාව",
+      "තාරකා විද්‍යාව",
+      "ගණිතය"
+    ],
+    "media": [
+      "පුස්කොළ පොත්",
+      "ශිලා ලේඛන",
+      "තඹ පත්‍ර"
+    ]
+  },
+  "Foreign_Relations": {
+    "type": "Diplomatic_Trade_Network",
+    "partners": [
+      "ඉන්දියාව",
+      "රෝමය",
+      "චීනය",
+      "අරාබිය"
+    ],
+    "nature": [
+      "ආගමික සබඳතා",
+      "සංස්කෘතික හුවමාරු",
+      "දේශපාලන සබඳතා",
+      "වෙළඳ සබඳතා"
+    ]
+  },
+  "Kings": {
+    "type": "Entity_List",
+    "notable_rulers": {
+      "පණ්ඩුකාභය": [
+        "අනුරාධපුරය අගනගරය කිරීම",
+        "නගර සැලසුම්කරණය"
+      ],
+      "දේවානම්පියතිස්ස": [
+        "බුදු දහම වැළඳගැනීම",
+        "මහා මෙඝවන උද්‍යානය පූජා කිරීම"
+      ],
+      "දුටුගැමුණු": [
+        "රට එක්සේසත් කිරීම",
+        "රුවන්වැලි සෑය ඉදිකිරීම"
+      ],
+      "වසභ": [
+        "වැව් 12ක් සහ ඇළ මාර්ග 12ක් ඉදිකිරීම",
+        "වාරිමාර්ග වර්ධනය"
+      ],
+      "මහාසේන": [
+        "මින්නේරිය වැව ඉදිකිරීම",
+        "විශාල වාරි ව්‍යාපෘති"
+      ],
+      "ධාතුසේන": [
+        "කලා වැව",
+        "යෝධ ඇළ"
+      ],
+      "කාශ්‍යප": [
+        "සිගිරිය සංවර්ධනය",
+        "කලා patronage"
+      ]
+    }
+  },
+  "relationships": {
+    "irrigation_enables": [
+      "Agriculture",
+      "Economic_stability",
+      "Population_growth"
+    ],
+    "buddhism_influences": [
+      "Culture",
+      "Education",
+      "Administration",
+      "Art_Architecture",
+      "Social_values"
+    ],
+    "kings_patronize": [
+      "Irrigation",
+      "Buddhism",
+      "Art_Architecture",
+      "Education"
+    ],
+    "trade_supports": [
+      "Economy",
+      "Cultural_exchange"
+    ],
+    "administration_maintains": [
+      "Irrigation",
+      "Justice",
+      "Defense",
+      "Revenue_collection"
+    ]
   }
 }
